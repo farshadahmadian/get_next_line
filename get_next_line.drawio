@@ -1,0 +1,93 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="6k0bjrFBND-zZMjynmPb">
+        <mxGraphModel dx="1822" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" source="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="295" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="get_next_line()&lt;br&gt;read()" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" source="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="263" y="299.5" as="sourcePoint"/>
+                        <mxPoint x="295" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="755" y="299.5" as="sourcePoint"/>
+                        <mxPoint x="805" y="299.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="755" y="280" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;rounded=0;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="714.5" y="340" as="sourcePoint"/>
+                        <mxPoint x="714.5" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="no" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="725" y="350" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="1) assign '\0' to all characters of buffer&lt;br&gt;2) read again" style="rounded=0;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="603.75" y="540" width="222.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" source="54" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="625" y="300" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="if &amp;nbsp;\n" style="rhombus;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="675" y="260" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="if&lt;br&gt;end of file" style="rhombus;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="390" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="760" y="434.5" as="sourcePoint"/>
+                        <mxPoint x="805" y="435" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1) concatinate the characters which are read&lt;/span&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;to the previous value of&amp;nbsp; the static variable.&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="270" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" source="31" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="717.5" y="540" as="sourcePoint"/>
+                        <mxPoint x="715" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="no" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="725" y="500" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="1) free the static variable&lt;br&gt;2) return the value of the static variable" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="795" y="405" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=classic;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="603.75" y="570" as="sourcePoint"/>
+                        <mxPoint x="586.25" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="586.25" y="570"/>
+                            <mxPoint x="586.25" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="755" y="410" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;div&gt;1) store the characters after \n in the&lt;/div&gt;&lt;div&gt;static variable (if there is no character,&lt;/div&gt;&lt;div&gt;assign NULL to the static variable)&lt;/div&gt;&lt;div&gt;2) return \n and before&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=0;" parent="1" vertex="1">
+                    <mxGeometry x="795" y="270" width="250" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
